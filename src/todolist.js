@@ -1,5 +1,5 @@
 import React from 'react';
-
+import DeleteIcon from '@material-ui/icons/Delete';
 
 export default class Todolist extends React.Component{
     state ={
@@ -34,7 +34,7 @@ export default class Todolist extends React.Component{
     renderList(){
         return this.state.list.map((item, index)=> {
             return <ul>
-                        <li>{item}<button className="deletebutton" onClick={()=>{this.handleDelete(item,index)}}>Delete</button></li> 
+                        <li>{item}<DeleteIcon className="deletebutton" onClick={()=>{this.handleDelete(item,index)}}/></li> 
                     </ul>
         })
     };
