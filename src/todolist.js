@@ -6,10 +6,12 @@ export default class Todolist extends React.Component{
         list: [],
         inputValue: '',
     };
+    
     //adds user input
     handleChange(e){
         this.setState({inputValue: e.target.value})
     };
+
     //creates a new array
     handleSubmit(e){
         e.preventDefault();
