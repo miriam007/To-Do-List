@@ -1,11 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 100px;
+  color: #01579B;
+  text-align: center;
+  background-color: aquamarine;
+}
+.addbutton {
+  background-color: #4FC3F7;
+  border-radius: 25px;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+}
+.deletebutton {
+  color: black;
+  padding-left: 30px;
+} 
+ul {
+  background-color: aquamarine;
+  padding: 20px;
+}
+li {
+  font-family: 'Abel', sans-serif;
+  color: black;
+  text-align: left;
+  list-style-type: square;
+}
+ul li {
+  background-color: #4FC3F7;
+  padding: 5px;
+  margin-left: 35px;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
   background-color: #222;
@@ -18,11 +51,6 @@
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
+
